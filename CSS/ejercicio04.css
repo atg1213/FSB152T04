@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    min-height: 200vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--color3);
+    color: var(--color1);
+}
+
+header {
+    background: var(--color1);
+    color: var(--color4);
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    border-bottom: 4px solid var(--color2);
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background:antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(14, 33, 72, 0.12);
+    padding: 2rem;
+}
+.seccion {
+    position: relative;
+     min-height: 600px;
+}
+.posicionStatic {
+    border: 2px solid black;
+    border-radius: 6px;
+    background:aquamarine;
+    color: brown;
+    padding: 10px;
+    margin: 1px;
+    font-size: medium;
+    position: static;
+}
+.posicionRelative {
+    border: 2px solid darkblue;
+    border-radius: 6px;
+    background-color: azure;
+    color: blue;
+    padding: 10px;
+    margin: 1px;
+    font-size: medium;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.posicionAbsolute {
+    border: 2px solid brown;
+    border-radius: 6px;
+    background-color: lightcoral;
+    color:azure;
+    padding: 10px;
+    margin: 1px;
+    font-size: medium;
+    position: absolute;
+     top: 440px;
+    right: 40px;
+    width: 320px;
+}
+.posicionFixed {
+     border: 2px solid black;
+    border-radius: 6px;
+    background-color: lightgray;
+    color:cadetblue;
+    padding: 10px;
+    margin: 1px;
+    font-size: medium;
+    position: fixed;
+    left: 30px;
+    width: 320px;
+}
+.posicionSticky {
+    border: 2px solid darkviolet;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    color:black;
+    padding: 10px;
+    margin: 1px;
+    font-size: medium;
+    position: sticky;
+    top: 10px;
+}
